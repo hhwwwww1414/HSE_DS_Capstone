@@ -1,0 +1,5 @@
+outs:
+- md5: d2a13a9a2b71103df1437585d1e1d1e7
+  size: 25406
+  hash: md5
+  path: lgbm_optuna.pkl
