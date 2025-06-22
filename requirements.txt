@@ -1,8 +1,13 @@
-streamlit>=1.34
+# --- web-демо ---
+streamlit>=1.34,<2
+
+# --- классика DS ---
 pandas
 scikit-learn
 lightgbm
-torch==2.3.1
-torchvision==0.19.1
-torchcam>=0.4.2
-Pillow
+Pillow                 # для PIL
+
+# --- DL-часть ---
+torch==2.3.1           # есть колёса под Py 3.10
+torchvision==0.19.1    # совместима с Torch 2.3.x
+torchcam==0.4.0        # последняя версия, работает с Torch 2.x
