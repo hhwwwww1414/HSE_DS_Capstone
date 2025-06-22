@@ -2,7 +2,11 @@ streamlit>=1.34
 pandas
 scikit-learn
 lightgbm
-torch==2.7.1
-torchvision==0.22.1
-torchcam==0.3.2
+
+# --- совместимая тройка ---
+torch==1.13.1          # CPU-колесо есть в PyPI
+torchvision==0.14.1    # пара к 1.13.x
+torchcam==0.3.2        # поддерживает Torch <2.0
+# --------------------------
+
 Pillow
